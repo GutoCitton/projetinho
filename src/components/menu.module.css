@@ -1,0 +1,56 @@
+.logo {
+    color: red;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around; 
+    width: 300px;
+    font-weight: bold;
+}
+
+ul a{
+    color: #DD4A48;
+    transition: 0.5s;
+}
+
+ul a:hover{
+    color: #C0D8C0;
+    transition: 0.4s;
+}
+
+img{
+    width: 80px;
+    margin: 8px 0 0 10px;
+    transition: 0.4s;
+}
+
+img:hover{
+    width: 80px;
+    margin: 8px 0 0 10px;
+    filter: invert();
+    transition: 0.4s;
+}
+
+
+.menuContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #ECB390;
+    border-end-start-radius: 50px;
+    border-start-end-radius: 50px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 10px;
+
+}
+
+/* colors
+
+C0D8C0
+F5EEDC
+DD4A48
+ECB390 */
+

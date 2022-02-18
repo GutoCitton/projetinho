@@ -1,0 +1,19 @@
+p {
+    display: flex;
+    margin: 50px 0;
+    text-align: justify;
+    width: 500px;
+}
+section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* colors
+
+C0D8C0
+F5EEDC
+DD4A48
+ECB390 */
